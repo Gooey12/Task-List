@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "To-Do",
+  "version": "1.0",
+  "description": "A simple to-do list extension. (https://github.com/CaptGooey12/Task-List)",
+  "icons": {
+    "16": "icon16x.png",
+    "48": "icon48x.png",
+    "128": "icon128x.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ],
+  "action": {
+      "default_popup": "popup.html"
+  },
+  "permissions": [
+      "storage"
+  ]
+}
