@@ -1,0 +1,35 @@
+@import url('font.ttf');
+
+* {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -ms-touch-select: none;
+    -webkit-user-select: none;
+
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+strong {
+    user-select: text;
+    -ms-user-select: text;
+    -moz-user-select: text;
+    -ms-touch-select: text;
+    -webkit-user-select: text;
+}
+
+body {
+    background-color: #7fddff;
+}
+
+.shorten-input {
+    width: 280px;
+}
+
+.taskList-Item {
+    border: 1px;
+    border-color: #13c0ff;
+    border-radius: 5px;
+}
